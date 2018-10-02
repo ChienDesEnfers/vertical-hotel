@@ -6,7 +6,7 @@
 Hotel Reservation
 ==================
 
-This Module is provide reservation for hotel rooms.
+This module provides the feature of Reserving the Hotel Rooms.
 
 You can manage:
 
