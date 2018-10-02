@@ -21,7 +21,7 @@
         'views/max_room.xml',
         'views/room_res.xml',
         'views/room_summ_view.xml',
-        'wizard/hotel_reservation_wizard.xml',
+        'wizards/hotel_reservation_wizard.xml',
         'report/hotel_reservation_report.xml',
     ],
     'qweb': ['static/src/xml/hotel_room_summary.xml'],

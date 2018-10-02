@@ -19,9 +19,8 @@ class ReportTestCheckin(models.AbstractModel):
 
     def _get_room_nos(self, date_start, date_end):
         reservation_obj = self.env['hotel.reservation']
-        tids = reservation_obj.search([('checkin', '>=', date_start),
+        res = reservation_obj.search([('checkin', '>=', date_start),
                                        ('checkout', '<=', date_end)])
-        res = reservation_obj.browse(tids)
         return res
 
     def get_checkin(self, date_start, date_end):
